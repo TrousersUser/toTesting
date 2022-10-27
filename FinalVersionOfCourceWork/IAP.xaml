@@ -1,0 +1,17 @@
+﻿<Window x:Class="FinalVersionOfCourceWork.IAP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalVersionOfCourceWork"
+        mc:Ignorable="d"
+        Title="IAP" Height="220" Width="507"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF489294">
+        <Label Content="Перед вами программный продукт, разработанный компанией 'ООО' Импорт'. " HorizontalAlignment="Center" Margin="0,58,0,0" VerticalAlignment="Top" Foreground="White" Background="Black"/>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,89,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\Season\Desktop\FinalVersionOfCourceWork\FinalVersionOfCourceWork\Pictures\artworks-kgCNFHzG1aqPHYaz-P4DsfA-t500x500.jpg"/>
+        <Button Content="Return?" HorizontalAlignment="Center" VerticalAlignment="Top" Width="53" BorderBrush="#00000000" Background="#FF292828" Foreground="White" Margin="0,23,0,0" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
